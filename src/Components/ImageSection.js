@@ -28,7 +28,7 @@ function ImageSection() {
                         <p>: Undergraduate Student</p>
                     </div>
                 </div>
-                <a href={resume} download="TejasR_Resume" target='_blank'>
+                <a href={resume} download="TejasR_Resume" rel='noopener noreferrer' target='_blank'>
                 <PrimaryButton title={'Download Resume'} />
                 </a>
             </div>
