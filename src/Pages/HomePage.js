@@ -1,20 +1,20 @@
 import React from 'react'
 import styled from 'styled-components';
 import Particle from '../Components/Particle';
-import EmailIcon from '@material-ui/icons/Email';
+//import EmailIcon from '@material-ui/icons/Email';
 //import ContactItem from '../Components/ContactItem';
 import ImageSection from '../Components/ImageSection';
 import Title from '../Components/Title';
 import {MainLayout} from '../styles/Layouts';
 
 function HomePage() {
-    const email = <EmailIcon />
+    //const email = <EmailIcon />
     return (
         <Homepagestyled>
             <div className="particle-con">
                 <Particle />
             </div>
-            <MainLayout className="lay">
+            <MainLayout>
                 <Title title={'About Me'} span={'About Me'} />
                 <ImageSection />
             </MainLayout>

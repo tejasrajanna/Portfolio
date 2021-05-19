@@ -48,7 +48,7 @@ const MenuItemStyled = styled.div`
                 font-size: 1.5rem;
             }
             img{
-                width: 46vh;
+                width: 45vh;
                 height: 30vh;
                 object-fit: cover;
             }

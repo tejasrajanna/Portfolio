@@ -26,9 +26,9 @@ function Navigation() {
                 </li>
             </ul>
             <div className="icons">
-                <a href="https://github.com/tejasrajanna" className="icon i-github">
+                <a href="https://github.com/tejasrajanna" target="_blank" rel="noreferrer noopener" className="icon i-github">
                         <GithubIcon /> </a>
-                <a href="https://www.linkedin.com/in/tejas-rajanna-66851220b/" className="icon i-linkedin">
+                <a href="https://www.linkedin.com/in/tejas-rajanna-66851220b/" target="_blank" rel="noreferrer noopener" className="icon i-linkedin">
                         <LinkedinIcon /> </a>
             </div>
             <footer className="footer">
