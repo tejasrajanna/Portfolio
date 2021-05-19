@@ -48,7 +48,7 @@ const MenuItemStyled = styled.div`
                 font-size: 1.5rem;
             }
             img{
-                width: 100%;
+                width: 46vh;
                 height: 30vh;
                 object-fit: cover;
             }
@@ -86,8 +86,7 @@ const MenuItemStyled = styled.div`
                 &::before{
                     content: "";
                     position: absolute;
-                    left: 2%;
-                    top: 4%;
+                  
                     height: 0;
                     width: 0;
                     transition: all .4s ease-in-out;
@@ -122,8 +121,8 @@ const MenuItemStyled = styled.div`
                     }
                 }
                 &::before{
-                    height: calc(100% - 45%) ;
-                    width: calc(100% - 4%);
+                    height: 30vh ;
+                    width: 100%;
                     background-color: white;
                     opacity: 0.5;
                     transform-origin: left;

@@ -28,8 +28,10 @@ const CourseCardStyled = styled.div`
         padding: 1.2rem;
         h4{
             color: var(--white-color);
-            font-size: 1.6rem;
-            padding: 1rem 0;
+            font-size: 1.2rem;
+            padding: 0.5rem;
+            padding-left: 0.2rem;
+            padding-right: 0rem;
             position: relative;
             &::after{
                 content: "";
@@ -44,7 +46,7 @@ const CourseCardStyled = styled.div`
         }
 
         p{
-            padding: .8rem 0;
+            padding: .5rem 0;
         }
     }
 `;

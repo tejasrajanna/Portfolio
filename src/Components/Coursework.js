@@ -15,7 +15,7 @@ function Coursework() {
                     <CourseCard 
                         image={design} 
                         title={'Data Structures With Applications'} 
-                        paragraph={'insert, delete, search and modify data in any given data structures- Stack, Queue, List, Tree, heap, Graphs.'}
+                        paragraph={'insert, delete, search and modify data in given data structures- Stack, Queue, List, Tree, heap, Graphs.'}
                     />
                     <div className="mid-card">
                         <CourseCard 
@@ -27,7 +27,7 @@ function Coursework() {
                     <CourseCard 
                         image={web} 
                         title={'Web Technologies'} 
-                        paragraph={'Core concepts of HTML5, CSS3, Javascript and industry trending MERN (MongoDB, ExpressJS, ReactJS and NodeJS) stack'}
+                        paragraph={'Core concepts of HTML5, CSS3, Javascript and MERN (MongoDB, ExpressJS, ReactJS and NodeJS) stack'}
                     />
                 </div>
             </CourseworkStyled>

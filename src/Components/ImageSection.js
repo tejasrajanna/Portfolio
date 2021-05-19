@@ -19,6 +19,7 @@ function ImageSection() {
                         <p>Languages </p>
                         <p>Location</p>
                         <p>Occupation</p>
+                        <p>E-mail</p>
                     </div>
                     <div className="info">
                         <p>: Tejas Rajanna</p>
@@ -26,6 +27,7 @@ function ImageSection() {
                         <p>: Kannada,English, Hindi </p>
                         <p>: Bangalore, India</p>
                         <p>: Undergraduate Student</p>
+                        <p>: tejasrajanna@gmail.com</p>
                     </div>
                 </div>
                 <a href={resume} download="TejasR_Resume" rel='noopener noreferrer' target='_blank'>
@@ -38,7 +40,7 @@ function ImageSection() {
 
 
 const ImageSectionStyled = styled.div`
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     @media screen and (max-width:1000px){
         flex-direction: column;
@@ -64,7 +66,7 @@ const ImageSectionStyled = styled.div`
         }
         .about-info{
             display: flex;
-            padding-bottom: 1.4rem;
+            padding-bottom: 0.4rem;
             .info-title{
                 padding-right: 3rem;
                 p{
