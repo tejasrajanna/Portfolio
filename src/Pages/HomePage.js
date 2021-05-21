@@ -24,11 +24,11 @@ function HomePage() {
 
 const Homepagestyled=styled.header`
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
 
     .particle-con{
-        position: absolute;
+        position: fixed;
         width: 100%;
     }`
 
