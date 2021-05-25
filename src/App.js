@@ -6,6 +6,7 @@ import HomePage from "./Pages/HomePage";
 import AcademicsPage from './Pages/AcademicsPage';
 import ProjectsPage from './Pages/ProjectsPage';
 import SkillsPage from './Pages/SkillsPage';
+//import ContactPage from './Pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch as Switching } from "react-router";
@@ -34,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-        <Sidebar navToggle={navToggle} />
+        <Sidebar navToggle={navToggle} setNavToggle={setNavToggle} />
 
         <div className="theme">
           <div className="light-dark-mode">
@@ -81,6 +82,9 @@ function App() {
             <Route path="/skills" exact>
               <SkillsPage />
             </Route>
+            {/*<Route path="/contact" exact>
+              <ContactPage />
+  </Route>*/}
           </Switching>
 
         </MainContentStyled>

@@ -149,8 +149,8 @@ h6{
   //Nav Toggler
   .ham-burger-menu{
       position: absolute;
-      right: 5%;
-      top: 3%; 
+      right: 2%;
+      top: 8%; 
       display: none;
       z-index: 15;
       svg{
@@ -162,14 +162,12 @@ h6{
         transform: translateX(0);
         z-index: 20;
     }
+
   @media screen and (max-width:1200px){
     .ham-burger-menu{
         display: block;
     }
   }
-
-
-//Global Media Queries
 `;
 
 export default GlobalStyle;

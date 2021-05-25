@@ -1,29 +1,32 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/avatar.jpeg';
 import GithubIcon from '@material-ui/icons/GitHub';
 import LinkedinIcon from '@material-ui/icons/LinkedIn'
 
-function Navigation() {
+const Navigation = params => {
     return (
-        <NavigationStyled>
+        <NavigationStyled >
             <div className="avatar">
                 <img src={avatar} alt=""/>
             </div>
-            <ul className="nav-items">
+            <ul className="nav-items" onClick={() => params.setNavToggle(false)}>
                 <li className="nav-item">
                     <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink to="/academics" activeClassName="active-class" exact>Academics</NavLink>
-                </li>
-                <li className="nav-item">
+                <li className="nav-item" >
                     <NavLink to="/projects" activeClassName="active-class" exact>Projects</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/skills" activeClassName="active-class" exact>Technical Skills</NavLink>
                 </li>
+                <li className="nav-item">
+                    <NavLink to="/academics" activeClassName="active-class" exact>Academics</NavLink>
+                </li>
+                {/*<li className="nav-item">
+                    <NavLink to="/contact" activeClassName="active-class" exact>Contact Me</NavLink>
+    </li>*/}
             </ul>
             <div className="icons">
                 <a href="https://github.com/tejasrajanna" target="_blank" rel="noreferrer noopener" className="icon i-github">
@@ -65,6 +68,7 @@ const NavigationStyled = styled.nav`
             background-color: var(--primary-color-light);
             color: white;
         }
+       
         li{
             display: block;
             a{
@@ -150,6 +154,5 @@ const NavigationStyled = styled.nav`
             text-align: center;
         }
     }
-
 `;
 export default Navigation;
